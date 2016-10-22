@@ -1,0 +1,65 @@
+.yo1dog-kbsc-hidden {
+  display: none !important;
+}
+
+#yo1dog-kbsc-searchBar {
+  all: initial;
+}
+#yo1dog-kbsc-searchBar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #FFF;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px 0px;
+  font-family: Arial,Verdana,Helvetica,sans-serif;
+  z-index: 22;
+}
+
+.yo1dog-kbsc-searchInput {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.yo1dog-kbsc-searchResults {
+  margin-top: 4px;
+}
+.yo1dog-kbsc-searchResults:empty {
+  margin-top: 0px;
+}
+
+.yo1dog-kbsc-searchResult {
+  display: block;
+  padding: 4px 14px;
+  color: #000;
+  font-weight: normal;
+}
+
+.yo1dog-kbsc-searchResultLabel {
+  vertical-align: middle;
+  margin-left: 3px;
+}
+
+.yo1dog-kbsc-searchResultLabelUnmatched {
+  color: #999;
+}
+
+.yo1dog-kbsc-searchResult:hover {
+  color: inherit;
+}
+
+.yo1dog-kbsc-searchResult.yo1dog-kbsc-searchResultSelected,
+.yo1dog-kbsc-searchResult.yo1dog-kbsc-searchResultSelected .yo1dog-kbsc-searchResultLabelUnmatched
+ {
+  color: #f91;
+}
+
+.yo1dog-kbsc-searchResultLabelMatched {
+  font-weight: bold;
+}
+
+.yo1dog-kbsc-searchResultIcon {
+  display: inline-block;
+  vertical-align: middle;
+}

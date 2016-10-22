@@ -1,0 +1,2 @@
+#! /bin/bash
+{ cat ./userScript/userScriptDef; browserify --debug src/index.js; } > ./userScript/awsKeyboardShortcuts.user.js

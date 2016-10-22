@@ -1,0 +1,16 @@
+// ==UserScript==
+// @name         AWS Keyboard Shortcuts
+// @namespace    http://yo1.dog
+// @version      0.1
+// @description  Adds keyboard shortcuts to the AWS Management Console.
+// @author       Mike "yo1dog" Moore
+// @match        https://console.aws.amazon.com/*
+// @match        https://*.console.aws.amazon.com/*
+// @grant        GM_addStyle
+// @icon         
+// @run-at       document-idle
+// ==/UserScript==
+// 
+// This contents of this file is put at the top of the browserify output and
+// defines the properties that Greasemonkey/Tampermonkey need.
+/* NOTE: you should leave the last trailing line */
