@@ -3,7 +3,7 @@ Adds keyboard shortcuts to the AWS Console
 
 ## Install
 1. Install the Greasemonkey or Tampermonkey extension.
-2. Click [here](linktocome).
+2. Click [here](https://github.com/yo1dog/aws-keyboard-shortcuts/raw/master/userScript/awsKeyboardShortcuts.user.js).
 
 ## Build
 1. Install browserify: `npm install browserify -g`
